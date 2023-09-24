@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Nutriyo.Contracts\Nutriyo.Contracts.csproj" />
   </ItemGroup>
+
 
 </Project>

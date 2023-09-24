@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Nutriyo.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Nutriyo.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nutriyo.Contracts.dll": {}
+        }
       }
     }
   },
@@ -460,11 +470,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Nutriyo.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Nutriyo.Contracts/Nutriyo.Contracts.csproj",
+      "msbuildProject": "../Nutriyo.Contracts/Nutriyo.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
+      "Nutriyo.Contracts >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -492,7 +508,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/Nutriyo.Contracts.csproj": {
+              "projectPath": "/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/Nutriyo.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
