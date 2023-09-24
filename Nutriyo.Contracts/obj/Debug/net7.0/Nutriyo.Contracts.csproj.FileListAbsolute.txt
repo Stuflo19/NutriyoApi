@@ -1,0 +1,12 @@
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/bin/Debug/net7.0/Nutriyo.Contracts.deps.json
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/bin/Debug/net7.0/Nutriyo.Contracts.dll
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/bin/Debug/net7.0/Nutriyo.Contracts.pdb
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.csproj.AssemblyReference.cache
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.AssemblyInfoInputs.cache
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.AssemblyInfo.cs
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.csproj.CoreCompileInputs.cache
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.dll
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/refint/Nutriyo.Contracts.dll
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/Nutriyo.Contracts.pdb
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo.Contracts/obj/Debug/net7.0/ref/Nutriyo.Contracts.dll
