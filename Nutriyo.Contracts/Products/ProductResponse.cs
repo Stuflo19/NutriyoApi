@@ -4,9 +4,8 @@ public record ProductResponse(
     Guid Id,
     string Name,
     List<string> Barcodes,
-    string ImageLocation,
+    int Weight,
     DateTime LastUpdated,
     NutritionalInformation PerHundredGrams,
-    NutritionalInformation PerServing,
-    NutritionalInformation PerPacket
+    NutritionalInformation Total
 );

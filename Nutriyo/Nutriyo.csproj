@@ -13,7 +13,46 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Nutriyo.Contracts\Nutriyo.Contracts.csproj" />
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net7.0\apphost" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.assets.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.csproj.CopyComplete" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.dll" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.GeneratedMSBuildEditorConfig.editorconfig" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.genruntimeconfig.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.MvcApplicationPartsAssemblyInfo.cache" />
+    <Content Include="obj\Debug\net7.0\Nutriyo.pdb" />
+    <Content Include="obj\Debug\net7.0\refint\Nutriyo.dll" />
+    <Content Include="obj\Debug\net7.0\ref\Nutriyo.dll" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net7.0\staticwebassets\msbuild.build.Nutriyo.props" />
+    <Content Include="obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Nutriyo.props" />
+    <Content Include="obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Nutriyo.props" />
+    <Content Include="obj\Nutriyo.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Nutriyo.csproj.nuget.g.props" />
+    <Content Include="obj\Nutriyo.csproj.nuget.g.targets" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\project.nuget.cache" />
+    <Content Include="obj\project.packagespec.json" />
+    <Content Include="obj\rider.project.model.nuget.info" />
+    <Content Include="obj\rider.project.restore.info" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\Nutriyo.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\Nutriyo.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net7.0\Nutriyo.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  </ItemGroup>
+
+
 
 
 </Project>

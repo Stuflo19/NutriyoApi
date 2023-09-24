@@ -1,0 +1,17 @@
+POST http://{{host}}:{{port}}/Products
+Content-Type: application/json
+
+{
+  "Name": "Pepsi 330ml Can",
+  "Weight": 330,
+  "Barcodes": ["000000"],
+  "PerHundredGrams": {
+    "Calories": 1,
+    "Fat": 0,
+    "OfWihchSaturates": 0,
+    "Carbohydrate": 0,
+    "OfWhichSugars": 0,
+    "Protein": 0,
+    "Salt": 0
+  }
+}

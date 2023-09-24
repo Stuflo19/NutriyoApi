@@ -31,3 +31,5 @@
 /home/stubuntu/RiderProjects/Nutriyo/Nutriyo/obj/Debug/net7.0/Nutriyo.pdb
 /home/stubuntu/RiderProjects/Nutriyo/Nutriyo/obj/Debug/net7.0/Nutriyo.genruntimeconfig.cache
 /home/stubuntu/RiderProjects/Nutriyo/Nutriyo/obj/Debug/net7.0/ref/Nutriyo.dll
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo/bin/Debug/net7.0/Nutriyo.Contracts.dll
+/home/stubuntu/RiderProjects/Nutriyo/Nutriyo/bin/Debug/net7.0/Nutriyo.Contracts.pdb
