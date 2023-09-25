@@ -1,4 +1,6 @@
+using ErrorOr;
 using Nutriyo.Models.Products;
+using Nutriyo.ServiceErrors;
 
 namespace Nutriyo.Services.Products;
 
@@ -6,23 +8,35 @@ public class ProductService : IProductService
 {
     private static readonly Dictionary<Guid, Product> Products = new();
     
-    public void CreateProduct(Product product)
+    public ErrorOr<Created> CreateProduct(Product product)
     {
         Products.Add(product.Id, product);
+
+        return Result.Created;
     }
 
-    public Product GetProduct(Guid id)
+    public ErrorOr<Product> GetProduct(Guid id)
     {
-        return Products[id];
+        if(Products.TryGetValue(id, out var product))
+        {
+            return product;
+        }
+        
+        return Errors.Product.NotFound;
     }
 
-    public void UpdateProduct(Product product)
+    public ErrorOr<UpdatedProduct> UpdateProduct(Product product)
     {
+        var isNewlyCreated = !Products.ContainsKey(product.Id);
         Products[product.Id] = product;
+
+        return new UpdatedProduct(isNewlyCreated);
     }
 
-    public void DeleteProduct(Guid id)
+    public ErrorOr<Deleted> DeleteProduct(Guid id)
     {
         Products.Remove(id);
+
+        return Result.Deleted;
     }
 }

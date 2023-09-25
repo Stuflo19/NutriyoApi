@@ -4,14 +4,14 @@ namespace Nutriyo.Models.Products;
 
 public class Product
 {
-    private Product(Guid id, string name, List<string> barcodes, int weight, DateTime lastUpdated, NutritionalInformation perHundredGrams, NutritionalInformation perPacket)
+    private Product(Guid id, string name, List<string> barcodes, int weight, DateTime lastUpdated, NutritionalInformation perHundredGrams, NutritionalInformation total)
     {
         Name = name;
         Barcodes = barcodes;
         LastUpdated = lastUpdated;
         Id = id;
         PerHundredGrams = perHundredGrams;
-        PerPacket = perPacket;
+        Total = total;
         Weight = weight;
     }
 
@@ -39,5 +39,5 @@ public class Product
     public int Weight { get; }
     public DateTime LastUpdated { get; }
     public NutritionalInformation PerHundredGrams { get; }
-    public NutritionalInformation PerPacket { get; }
+    public NutritionalInformation Total { get; }
 }

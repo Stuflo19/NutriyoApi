@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M6712VMLYE0/v6oxp6EFNMOEKhyUYw+296q8lr+k5K5sfU1QdC/MziewVrdvSMhx03pIEeuRXyiA10Tpqn6E6Q==",
+  "dgSpecHash": "Le6XcdBcWQpwMr2WPVGEgzueAj0aCgPYJptqSdarEqzuR9j4G2m5NNuFjk3inFOmk993Q9YT/gO52nbtIzx9pQ==",
   "success": true,
   "projectFilePath": "/home/stubuntu/RiderProjects/Nutriyo/Nutriyo/Nutriyo.csproj",
   "expectedPackageFiles": [
+    "/home/stubuntu/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
     "/home/stubuntu/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "/home/stubuntu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/stubuntu/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",

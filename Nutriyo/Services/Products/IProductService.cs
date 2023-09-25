@@ -1,14 +1,15 @@
 using Nutriyo.Models.Products;
+using ErrorOr;
 
 namespace Nutriyo.Services.Products;
 
 public interface IProductService
 {
-    void CreateProduct(Product product);
+    ErrorOr<Created> CreateProduct(Product product);
     
-    Product GetProduct(Guid id);
+    ErrorOr<Product> GetProduct(Guid id);
     
-    void UpdateProduct(Product product);
+    ErrorOr<UpdatedProduct> UpdateProduct(Product product);
     
-    void DeleteProduct(Guid id);
+    ErrorOr<Deleted> DeleteProduct(Guid id);
 }

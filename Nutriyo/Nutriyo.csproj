@@ -7,13 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Nutriyo.Contracts\Nutriyo.Contracts.csproj" />
-
+  </ItemGroup>
+  
   <ItemGroup>
     <Content Include="obj\Debug\net7.0\apphost" />
     <Content Include="obj\Debug\net7.0\Nutriyo.AssemblyInfoInputs.cache" />
@@ -48,8 +50,6 @@
     <Compile Include="obj\Debug\net7.0\Nutriyo.AssemblyInfo.cs" />
     <Compile Include="obj\Debug\net7.0\Nutriyo.GlobalUsings.g.cs" />
     <Compile Include="obj\Debug\net7.0\Nutriyo.MvcApplicationPartsAssemblyInfo.cs" />
-  </ItemGroup>
-
   </ItemGroup>
 
 
